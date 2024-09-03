@@ -4,7 +4,7 @@ import { ConnectionState } from './components/ConnectionState';
 import { ConnectionManager } from './components/ConnectionManager';
 import { Events } from "./components/Events";
 import { MyForm } from './components/MyForm';
-
+import './App.css'
 export default function App() {
   const [isConnected, setIsConnected] = useState(socket.connected);
   const [fooEvents, setFooEvents] = useState([]);
